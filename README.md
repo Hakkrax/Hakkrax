@@ -10,8 +10,9 @@ BSc Computer Science, Heriot-Watt University (2020–2023).
 |---|---|---|
 | [**Retail Sales & Customer Analytics**](https://github.com/Hakkrax/retail-bi-analytics) | 1M real invoice lines cleaned with an audit trail, a star schema, 10 SQL analyses (RFM, cohorts, Pareto) and a [live Tableau dashboard](https://public.tableau.com/app/profile/faheem.niyas/viz/retail_dashboard_17931009730360/SalesOverview) | Python, pandas, SQL, SQLite, Tableau |
 | [**Solar PV ETL Pipeline**](https://github.com/Hakkrax/solar-etl-pipeline) | Public solar monitoring and weather data turned into a clean hourly SQL dataset, with 23 named data-quality rules, idempotent loads and CI on SQLite and PostgreSQL | Python, SQLAlchemy, PostgreSQL, GitHub Actions |
+| [**Solar Fleet Performance Monitor**](https://github.com/Hakkrax/solar-ops-dashboard) | A [live dashboard](https://faheem-solar-ops.streamlit.app) on the ETL output: actual vs expected energy, anomaly rules with plain-English reasons (it caught a real single-inverter outage), data quality and a diesel-savings scenario | Python, Streamlit, Plotly, SQLite |
 
-Both projects use public, openly licensed data and include tests that run on every push.
+All projects use public, openly licensed data and include tests that run on every push.
 
 ### Tools
 
